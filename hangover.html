@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cinema Sizzle</title>
+    <meta charset="UTF-8">
+	<meta name = "keywords" content = "Text,website">
+	<meta name = "description" content = "Text website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="Styles/myStyle.css">
+
+    <script src="JS/myScript.js"></script>
+</head>
+
+<body>
+
+    <div class = "banner">
+        <div id = "floatingMenu">
+            <img src="images/buttonw.png" onclick="openNav()">            
+        </div>
+
+        <div id="mySidenav" class="sidenav" >
+            <input type="text" class="searchbar" placeholder="  What movie are you looking for?">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="home.html">Home</a>
+            <a href="signup.html">Sign up</a>
+            <a href="login.html">Login</a>
+            <a href="about.html">About</a>    
+        </div>
+
+        <img src = "images/3D.png" alt = "Image">  
+    </div>
+
+    <div class="topnav">
+        <a class="active" href = "home.html"> Home</a>
+        <a href="signup.html" href = >Sign Up</a>
+        <a href="login.html" href = >Login</a>
+        <a href="about.html">About</a>
+        <input type="text" placeholder="Search..">
+    </div>
+
+    <div id = "genres">
+        <ul>
+            <li><a href="action.html">Action</a></li>
+            <li><a href="comedy.html">Comedy</a></li>
+            <li><a href="#">Horror</a></li>
+            <li><a href="#">Thriller</a></li>
+            <li><a href="#">Drama</a></li>
+        </ul>
+    </div>
+
+    <div class="movieReview">
+        <img src = "images/hangover.jpg"  alt= "Image" >
+    </div>
+    <div id = "movieHeader"><h1>The Hangover</h1></div>
+    
+    <div class="movieDescription" align = "right" >
+        <p>
+            Three buddies wake up from a bachelor party in Las Vegas, with no memory of the previous night and the bachelor missing.<br>They make their way around the city in order to find their friend before his wedding.
+            <br><br>
+            Director<br>Todd Phillips<br><br>Writers<br>Jon LucasScott Moore<br><br>
+            Stars<br>Zach Galifianakis<br>Bradley Cooper<br>Justin Bartha        
+        </p>
+    </div>
+    <br>
+    <br>
+    <div class="movieDescription">
+            <p>
+                1. Movie: "The Hangover"Review: ⭐⭐⭐⭐⭐
+                <br>
+                "Mind-blowing visuals and an exhilarating 
+                storyline make 'The Hangover' a must-watch for sci-fi enthusiasts!"
+                <br>
+                <br>
+                2. Movie: "The Hangover"Review: ⭐⭐⭐⭐
+                <br>
+                "Despite a promising premise, 'The Hangover' fails to deliver the chills, leaving audiences wanting more."
+                <br>
+                <br>
+                3. Movie: "Harmony's Lament"Review: ⭐⭐⭐⭐⭐
+                <br>
+                "Prepare to be moved! 'Harmony's Lament' is a cinematic masterpiece, weaving together music and emotion flawlessly."
+            </p>
+            <br>
+            <br>
+        <form>
+            <label>What do you think about the movie?</label>
+            <br>
+            <textarea placeholder="Write your review" rows="5" cols="40"></textarea>
+            <br>
+            <input type="submit" class = "loginbutton" value="Submit">
+        </form>
+    </div>
+
+
+
+    <div id = "aboutFooter">&copyCinema Sizzle</div>
+
+
+</body>
+
+</html>
